@@ -1,5 +1,113 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css');
+
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav_bar {
+  height: 110px;
+  color: #a6a6a6;
+}
+
+.nav_bar ul {
+  display: flex;
+}
+
+.nav_bar a {
+  padding: 12px;
+  color: #a6a6a6;
+}
+
+.nav_bar a:hover {
+  color: #fff;
+  background-color: #fc5a1b;
+}
+
+.nav_bar a.active {
+  background-color: #fc5a1b;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.nav_bar .flex {
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 40px;
+}
+
+/* Image-2 */
+.logo-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+/* cards */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+
+  /* flex-wrap: wrap; */
+  padding: 25px 0;
+}
+
+.card-1 {
+  border-color: #f0f0f0;
+  background-color: #f7f7f7;
+  border-style: solid;
+  width: 450px;
+  height: 550px;
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  border: none;
+  background-color: #ff675b;
+  color: #fff;
+  padding: 5px 5px;
+  width: 90%;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.logo-3 {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.text {
+  padding: 0 250px;
+  font-size: 30px;
+}
+
+.video {
+  text-align: center;
 }
