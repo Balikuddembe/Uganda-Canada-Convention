@@ -111,3 +111,13 @@ button {
 .video {
   text-align: center;
 }
+
+.text-center {
+  margin: 10px 300px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.contacts {
+  margin: 10px 300px;
+}
