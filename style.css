@@ -121,3 +121,14 @@ button {
 .contacts {
   margin: 10px 300px;
 }
+
+.btn-read-more {
+  color: #337ab7;
+  line-height: 200%;
+}
+
+.btn-right {
+  text-align: right;
+  padding: 5px 300px;
+  font-size: 16px;
+}
