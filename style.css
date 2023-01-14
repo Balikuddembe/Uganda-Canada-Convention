@@ -128,8 +128,7 @@ button {
 }
 
 .btn-right {
- text-align: right;
- padding: 5px 300px;
- font-size: 16px;
-
+  text-align: right;
+  padding: 5px 300px;
+  font-size: 16px;
 }
