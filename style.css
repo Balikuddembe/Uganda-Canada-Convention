@@ -139,3 +139,39 @@ button {
   font-family: 'Lato', sans-serif;
   text-align: center;
 }
+
+.flex-container-speeker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-left: 15px;
+  
+}
+.card-container {
+  border: 1px solid #d0d0d0;
+  max-width: 290px;
+  /* margin-left: 60px; */
+  margin-bottom: 60px;
+
+}
+
+.card-title {
+  position: relative;
+  border: 1px solid #d0d0d0;
+  max-width: 220px;
+  background: #ffffff;
+  margin: -40px 55px 0px;
+  text-align: center;
+  padding: 15px 4px 10px;
+  color: #fc5a1b;
+}
+
+.card-content {
+  padding: 15px 15px;
+  color: #a6a6a6;
+}
+
+.card-content a {
+  padding-left: 150px;
+  color: #337ab7;
+}
