@@ -145,14 +145,12 @@ button {
   flex-wrap: wrap;
   gap: 40px;
   padding-left: 15px;
-  
+
 }
 .card-container {
   border: 1px solid #d0d0d0;
   max-width: 290px;
-  /* margin-left: 60px; */
   margin-bottom: 60px;
-
 }
 
 .card-title {
