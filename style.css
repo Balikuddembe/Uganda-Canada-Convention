@@ -161,9 +161,9 @@ button {
 .card-title {
   position: relative;
   border: 1px solid #d0d0d0;
-  max-width: 220;
+  max-width: 220px;
   background: #fff;
-  margin: -40px 55px 0px;
+  margin: -40px 55px 0;
   text-align: center;
   padding: 15px 4px 10px;
   color: #fc5a1b;
